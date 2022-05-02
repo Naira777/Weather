@@ -1,51 +1,14 @@
 body {
-
-margin: 0;
-padding: 0;
-animation: anima 1s;
-height: 100%;
-
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@keyframes anima
-{
-    0%   {opacity: 0.1; }
-    20% {opacity: 0.2;}
-    40% {opacity: 0.4;}
-    60% {opacity: 0.6;}
-    80% {opacity: 0.8;}
-    100% {opacity: 1;}
-  }
-
-@keyframes anima1
-{
-    0%   {background: url('https://c.wallhere.com/photos/b9/e5/1920x1080_px_lake_snow_Spring_Mountains-1311763.jpg!d');
-      background-repeat: no-repeat; background-size: cover; background-position: center center; }
- 
-    50% {background: url('https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014_1280.jpg');background-repeat: no-repeat;
-       background-size: cover; background-position: fixed center;}
-   
-    100% {background: url('https://cdn.pixabay.com/photo/2018/04/16/16/16/sunset-3325080_1280.jpg');background-repeat: no-repeat;
-      background-size: cover; background-position: center center; }
-  }
-
-
-  
-html {
-
-margin: 0;
-padding: 0;
-font-size: 10px;
-background: url('https://c.wallhere.com/photos/b9/e5/1920x1080_px_lake_snow_Spring_Mountains-1311763.jpg!d'); 
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-
-animation: anima1 20s;
-animation-direction: reverse;
-animation-timing-function: linear;
-
-height: 100%;
-
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
-
